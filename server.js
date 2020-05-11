@@ -22,7 +22,7 @@ app.use(function(req, res, next) {
 
 // define routes
 
-app.get('/',(req,res)=> res.send("We Running this fucking server"));
+app.get('/',(req,res)=> res.send("Bloggers API working here"));
 
 app.use('/api/article',require('./api/article'))
 app.use('/api/payment',require('./api/payment'))
