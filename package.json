@@ -1,0 +1,25 @@
+{
+  "name": "bloggers",
+  "version": "1.0.0",
+  "description": "All the Api for text purposes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Sushil Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "mongoose": "^5.9.13",
+    "request": "^2.88.2",
+    "stripe": "^8.50.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
