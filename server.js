@@ -26,6 +26,7 @@ app.get('/',(req,res)=> res.send("Bloggers API working here"));
 
 app.use('/api/article',require('./api/article'))
 app.use('/api/payment',require('./api/payment'))
+app.use('/api/task',require('./api/task'))
 
 const PORT = process.env.PORT || 5000;
 
