@@ -18,7 +18,7 @@ router.get('/',(req,res) => {
             desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             size:100*item+" gm "+100*item+" cm",
             price:100*item,
-            image:"http://carinoslajolla.com/wp-content/uploads/2017/03/PIZZA_1920.jpg"
+            image:"https://images.all-free-download.com/images/graphicthumb/pizza_02_hd_pictures_167413.jpg"
         }
     })
     const drinkData = [1,2,3,4,5].map(item=>{
